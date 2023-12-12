@@ -16,10 +16,10 @@ const jwtMW = exjwt({
 require('dotenv').config();
 
 var connection = mysql.createConnection({
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.DBPASSWORD,
-    database: process.env.DATABASE,
+    host: "ls-c32c5a612b94e6e4213c5d02e0e4e46616a52f4a.c3h3ty8pxluk.us-east-1.rds.amazonaws.com",
+    user: "saikumar5171",
+    password: "Saikumar5171",
+    database: "dbproject",
     port:3306
   });
 
